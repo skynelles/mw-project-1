@@ -152,7 +152,7 @@ hr {
   color: #C3BFBF;
 }
 
-/* ============ COURSE GOALS ==========*/
+/* ============ COURSE GOALS ========== */
 
 .course-goals-list {
   list-style-type: none;
@@ -177,7 +177,7 @@ hr {
 	display:table;
 }
 
-/* ============ MEET THE COLEARNERS ===========*/
+/* ============ MEET THE COLEARNERS =========== */
 
 .meet-colearners {
   padding: 60px 20px;
@@ -209,6 +209,8 @@ hr {
 
 .instructor {
   background-image: url(http://jeremyabrahams.github.io/mw-project-1/img/footer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   width:100%;
   height:auto;
 }
