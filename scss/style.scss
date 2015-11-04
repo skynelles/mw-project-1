@@ -6,7 +6,7 @@ $font: 'Roboto', Helvetica, Arial, Sans-Serif;
 /* ============ FONT FACE ============ */
 @font-face {
   font-family: 'Roboto';
-  src: url('https://www.google.com/fonts#UsePlace:use/Collection:Roboto');
+  src: url('https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700');
 }
 
 /* ============ GLOBAL STYLE ============ */
@@ -36,6 +36,8 @@ body {
   text-transform: uppercase;
   width:157px;
   height:100px;
+  float: left;
+  display: block;
   margin: 18px 0 0 34px;
 }
 
@@ -149,18 +151,20 @@ blockquote p {
 
 .header-nav {
   float: right;
-  margin: 20px;
-}
-
-.header-nav a {
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #FFF;
+  margin: 35px;
 }
 
 .header-nav ul li {
   display: inline-block;
-  padding: 5px;
+  margin: 0 14px;
+}
+
+.header-nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .header {
@@ -172,19 +176,23 @@ blockquote p {
 }
 
 .banner {
+  display: block;
+  margin: 0 auto;
   width: 1000px;
+  padding-top: 10%;
 }
 
 .banner-title {
   color: #FFF;
-  font-size: 48px;
-  font-weight: 300;
-  text-align: center;
+  font-size: 92px;
+  font-weight: 100;
 }
 
 .banner-text {
   text-align: center;
   color: #FFF;
+  font-size: 24px;
+  font-weight: 100;
 }
 
 .intro-section {
